@@ -11,8 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.mongodb.client.model.Updates.set;
+import static java.lang.reflect.Array.set;
 
-public class LivroRepository {
+public class  LivroRepository {
     private final MongoCollection<Livro> col;
 
     public LivroRepository(MongoDatabase db, String collectionName) {
