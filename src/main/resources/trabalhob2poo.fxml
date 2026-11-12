@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <BorderPane layoutY="-2.0" prefHeight="406.0" prefWidth="600.0">
+         <top>
+            <VBox prefHeight="107.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+                  <HBox prefHeight="100.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <TableView prefHeight="170.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+              </columns>
+            </TableView>
+         </center>
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ProgressIndicator progress="0.0" />
+                  <Label text="Label" />
+               </children>
+            </HBox>
+         </bottom></BorderPane>
+   </children>
+</AnchorPane>

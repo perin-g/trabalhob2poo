@@ -56,7 +56,7 @@ import java.util.UUID;
 
     public void emprestar() {
         if (emprestado) {
-            throw new LivroIndisponivelException();
+            throw new LivroIndisponivelException("o livro não esta disponivel para emprestar");
         } else {
             this.emprestado = true;
         }
